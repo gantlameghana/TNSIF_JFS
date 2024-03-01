@@ -8,6 +8,9 @@ public class ArraylistExample {
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("mango");
 		list.add("banana");
+		list.add("grapes");
+		list.add("papaya");
+		list.add("watermelon");
 		System.out.println(list);
 		//Travesing list through iterator
 		Iterator itr=list.iterator();
